@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /proposals/
+Disallow: /demos/
+Disallow: /work/
+Sitemap: https://greenislemarketing.com/sitemap.xml
