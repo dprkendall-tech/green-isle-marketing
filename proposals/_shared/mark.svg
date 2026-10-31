@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Green Isle">
+  <rect width="64" height="64" rx="18" fill="#14312c"/>
+  <path d="M14 40c6-10 10-16 18-22 8 6 12 12 18 22" fill="none" stroke="#e7b56a" stroke-width="2.4" stroke-linecap="round"/>
+  <circle cx="32" cy="24" r="3" fill="#e36a45"/>
+  <text x="32" y="50" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#f6efe4" letter-spacing="1">GI</text>
+</svg>

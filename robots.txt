@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
+# Proposal packs are private previews. Keep them out of search.
 Disallow: /proposals/
 Disallow: /demos/
 Disallow: /work/
