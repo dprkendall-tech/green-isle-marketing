@@ -52,6 +52,7 @@
     const snap = c.snapshot || {};
     const site = c.website || {};
     const fb = c.facebook || {};
+    const presence = c.presence || {};
     const google = c.google || {};
     const plan = c.plan || {};
     const close = c.close || {};
@@ -132,81 +133,142 @@
       </section>
       <section class="section" id="facebook">
         <div class="wrap">
-          <p class="eyebrow">${esc(fb.eyebrow || '')}</p>
-          <h2>${esc(fb.title || '')} <em>${esc(fb.titleEm || '')}</em></h2>
-          <p class="lead">${esc(fb.lead || '')}</p>
-          <div class="actions">${link(fb.liveHref, esc(fb.liveLabel || 'Current page'), 'btn light')}</div>
-          <article class="social reveal" aria-label="Proposed social page">
-            <div class="flag">${esc(fb.proposedFlag || 'Proposed')}</div>
-            <div class="cover">
-              ${fig(fb.cover, fb.coverAlt, '', true)}
-              <div class="cover-copy"><p>${esc(fb.coverKicker || '')}</p><h3>${esc(fb.coverTitle || '')}</h3><p>${esc(fb.coverThai || '')}</p></div>
-            </div>
-            <div class="social-head">
-              ${fig(fb.profile, fb.profileAlt, 'avatar')}
-              <div class="social-id"><h3>${esc(fb.name || '')}</h3><p class="handle">${esc(fb.handle || '')}</p><p>${esc(fb.category || '')}</p></div>
-              ${link(fb.ctaHref || 'site/#book', esc(fb.cta || 'Message'), 'btn')}
-            </div>
-            <div class="social-tabs" role="tablist" aria-label="Proposed page sections">
-              ${(fb.tabs || []).map((tab, index) => `<button type="button" role="tab" id="stab-${esc(tab.id)}" data-stab="${esc(tab.id)}" aria-selected="${index === 0 ? 'true' : 'false'}" aria-controls="spanel-${esc(tab.id)}">${esc(tab.label)}</button>`).join('')}
-            </div>
-            <div class="social-body" id="spanel-posts" role="tabpanel" data-spanel="posts" aria-labelledby="stab-posts">
-              <aside class="card intro-card">
-                <h3>About</h3>
-                <p>${esc(fb.bio || '')}</p>
-                <p>${esc(fb.bioTh || '')}</p>
-                <div class="highlights">${(fb.highlights || []).map((item) => `<div class="highlight"><b>${fig(item.image, item.alt)}</b>${esc(item.label)}</div>`).join('')}</div>
-              </aside>
-              <div>
-                ${pinned.map(postCard).join('')}
-                <div class="post-grid">${grid.map(postCard).join('')}</div>
-              </div>
-            </div>
-            <div class="social-body single" id="spanel-about" role="tabpanel" data-spanel="about" aria-labelledby="stab-about" hidden>
-              <div class="card"><h3>About</h3><p>${esc(fb.bio || '')}</p><p>${esc(fb.bioTh || '')}</p>
-                <dl class="about-list">${(fb.aboutRows || []).map((row) => `<div><dt>${esc(row.k)}</dt><dd>${esc(row.v)}</dd></div>`).join('')}</dl>
-              </div>
-            </div>
-            <div class="social-body single" id="spanel-reviews" role="tabpanel" data-spanel="reviews" aria-labelledby="stab-reviews" hidden>
-              <div class="card">
-                <p class="quote">“${esc(fb.reviewQuote || '')}”</p>
-                <p class="muted">${esc(fb.reviewBy || '')}</p>
-                <p class="lead">Google ${esc((c.snapshot?.stats || []).find((stat) => /google/i.test(stat.label))?.value || '')} · Tripadvisor ${esc((c.snapshot?.stats || []).find((stat) => /trip/i.test(stat.label))?.value || '')}. These are public figures, not a widget.</p>
-                <div class="actions">${link(contact.googleMaps, 'Google reviews', 'btn light')}${link(contact.tripadvisor, 'Tripadvisor', 'btn light')}</div>
-              </div>
-            </div>
-            <div class="social-body single" id="spanel-photos" role="tabpanel" data-spanel="photos" aria-labelledby="stab-photos" hidden>
-              <div class="photo-grid">${(fb.photos || []).map((photo) => fig(photo.image, photo.alt)).join('')}</div>
-            </div>
-          </article>
-        </div>
-      </section>
-      <section class="section" id="google">
-        <div class="wrap">
-          <p class="eyebrow">${esc(google.eyebrow || '')}</p>
-          <h2>${esc(google.title || '')} <em>${esc(google.titleEm || '')}</em></h2>
-          <p class="lead">${esc(google.lead || '')}</p>
-          <div class="bars">
-            ${(google.breakdown || []).map((row) => {
-              const pct = Math.round((Number(row.score) / Number(row.max || 1)) * 100);
-              return `<div class="bar-row"><span><strong>${esc(row.label)}</strong><em class="prio">${esc(row.score)}/${esc(row.max)}${row.opportunity ? ' · opportunity' : ''}</em></span><div class="${row.opportunity ? 'track opportunity' : 'track'}" aria-hidden="true">${row.opportunity ? '' : `<b style="width:${pct}%"></b>`}</div><p class="fine">${esc(row.why || '')}</p></div>`;
-            }).join('')}
+          <p class="eyebrow">${esc(presence.eyebrow || fb.eyebrow || '')}</p>
+          <h2>${esc(presence.title || fb.title || '')} <em>${esc(presence.titleEm || fb.titleEm || '')}</em></h2>
+          <p class="lead">${esc(presence.lead || fb.lead || '')}</p>
+          <div class="actions">${link(fb.liveHref, esc(fb.liveLabel || 'Current Facebook page'), 'btn light')}</div>
+          <div class="presence-tabs" role="tablist" aria-label="Facebook and Google Maps">
+            ${(presence.tabs || [
+              { id: 'fb', label: 'Facebook: before & after' },
+              { id: 'maps', label: 'Google Maps: recommended actions' }
+            ]).map((tab, index) => `<button type="button" role="tab" id="ptab-${esc(tab.id)}" data-ptab="${esc(tab.id)}" aria-selected="${index === 0 ? 'true' : 'false'}" aria-controls="ppanel-${esc(tab.id)}">${esc(tab.label)}</button>`).join('')}
           </div>
-          <div class="listings">
-            ${['before', 'after'].map((key) => {
-              const card = google[key] || {};
-              return `<article class="listing ${key}"><p class="eyebrow">${esc(card.label || '')}</p><h3>${esc(card.name || client.venue || '')}</h3><div class="chips">${(card.chips || []).map((chip) => `<span class="chip">${esc(chip)}</span>`).join('')}</div><dl>${(card.rows || []).map((row) => `<div><dt class="muted">${esc(row.k)}</dt><dd>${esc(row.v)}</dd></div>`).join('')}</dl></article>`;
-            }).join('')}
+
+          <div class="presence-panel" id="ppanel-fb" role="tabpanel" data-ppanel="fb" aria-labelledby="ptab-fb">
+            <div class="ba-grid">
+              <article class="ba-card before-card">
+                <div class="flag muted-flag">${esc(fb.before?.flag || 'Current Facebook page')}</div>
+                <h3>${esc(fb.before?.title || 'What guests see today')}</h3>
+                <p class="fine">${esc(fb.before?.lead || '')}</p>
+                ${fb.before?.image ? fig(fb.before.image, fb.before.imageAlt || 'Current Facebook page', 'ba-shot') : ''}
+                ${fb.before?.aboutImage ? fig(fb.before.aboutImage, fb.before.aboutImageAlt || 'Current About section', 'ba-shot') : ''}
+                <ul class="points">${(fb.before?.bullets || []).map((item) => `<li>${esc(item)}</li>`).join('')}</ul>
+              </article>
+
+              <article class="social reveal fb-mock" aria-label="Proposed Facebook page mockup">
+                <div class="flag">${esc(fb.proposedFlag || 'Proposed: Green Isle mockup')}</div>
+                <div class="cover">
+                  ${fig(fb.cover, fb.coverAlt, '', true)}
+                  <div class="cover-copy"><p>${esc(fb.coverKicker || '')}</p><h3>${esc(fb.coverTitle || '')}</h3><p>${esc(fb.coverThai || '')}</p></div>
+                </div>
+                <div class="social-head">
+                  ${fig(fb.profile, fb.profileAlt, 'avatar')}
+                  <div class="social-id">
+                    <h3>${esc(fb.name || '')}</h3>
+                    <p class="handle">${esc(fb.handle || '')}</p>
+                    <p>${esc(fb.category || '')}</p>
+                    <p class="rating-line">${esc(fb.ratingLine || '')}${fb.followersLine ? ` · ${esc(fb.followersLine)}` : ''}</p>
+                  </div>
+                  <div class="cta-stack">
+                    ${link(fb.ctaHref || 'site/#book', esc(fb.cta || 'WhatsApp'), 'btn gold')}
+                    ${fb.ctaSecondary ? `<span class="btn light mock-btn">${esc(fb.ctaSecondary)}</span>` : ''}
+                  </div>
+                </div>
+                <div class="highlights strip">${(fb.highlights || []).map((item) => `<div class="highlight"><b>${fig(item.image, item.alt)}</b>${esc(item.label)}</div>`).join('')}</div>
+                <div class="social-tabs" role="tablist" aria-label="Proposed page sections">
+                  ${(fb.tabs || []).map((tab, index) => `<button type="button" role="tab" id="stab-${esc(tab.id)}" data-stab="${esc(tab.id)}" aria-selected="${index === 0 ? 'true' : 'false'}" aria-controls="spanel-${esc(tab.id)}">${esc(tab.label)}</button>`).join('')}
+                </div>
+                <div class="social-body" id="spanel-posts" role="tabpanel" data-spanel="posts" aria-labelledby="stab-posts">
+                  <aside class="card intro-card">
+                    <h3>Intro</h3>
+                    <p>${esc(fb.bio || '')}</p>
+                    <p>${esc(fb.bioTh || '')}</p>
+                    <dl class="about-list tight">${(fb.aboutRows || []).filter((row) => /hours|address|category|location/i.test(row.k || '')).map((row) => `<div><dt>${esc(row.k)}</dt><dd>${esc(row.v)}</dd></div>`).join('')}</dl>
+                  </aside>
+                  <div>
+                    ${pinned.map(postCard).join('')}
+                    <div class="post-grid">${grid.map(postCard).join('')}</div>
+                  </div>
+                </div>
+                <div class="social-body single" id="spanel-about" role="tabpanel" data-spanel="about" aria-labelledby="stab-about" hidden>
+                  <div class="card"><h3>About</h3><p>${esc(fb.bio || '')}</p><p>${esc(fb.bioTh || '')}</p>
+                    <dl class="about-list">${(fb.aboutRows || []).map((row) => `<div><dt>${esc(row.k)}</dt><dd>${esc(row.v)}</dd></div>`).join('')}</dl>
+                  </div>
+                </div>
+                <div class="social-body single" id="spanel-reviews" role="tabpanel" data-spanel="reviews" aria-labelledby="stab-reviews" hidden>
+                  <div class="card">
+                    <p class="quote">“${esc(fb.reviewQuote || '')}”</p>
+                    <p class="muted">${esc(fb.reviewBy || '')}</p>
+                    <p class="lead">Google ${esc((c.snapshot?.stats || []).find((stat) => /google/i.test(stat.label))?.value || '')} · Tripadvisor ${esc((c.snapshot?.stats || []).find((stat) => /trip/i.test(stat.label))?.value || '')}. Real public reviews only — not a widget.</p>
+                    <div class="actions">${link(contact.googleMaps, 'Google reviews', 'btn light')}${link(contact.tripadvisor, 'Tripadvisor', 'btn light')}</div>
+                  </div>
+                </div>
+                <div class="social-body single" id="spanel-photos" role="tabpanel" data-spanel="photos" aria-labelledby="stab-photos" hidden>
+                  <div class="photo-grid">${(fb.photos || []).map((photo) => fig(photo.image, photo.alt)).join('')}</div>
+                </div>
+              </article>
+            </div>
+            ${(fb.changes || []).length ? `<div class="why-list"><h3>Why these Facebook changes help Don get found</h3>${(fb.changes || []).map((row) => `<article class="why-row"><strong>${esc(row.change)}</strong><p>${esc(row.why || '')}</p></article>`).join('')}</div>` : ''}
           </div>
-          <article class="card" style="margin-top:14px"><h3>Description to approve</h3><p>${esc(google.description || '')}</p><p class="fine">${esc(google.descriptionTh || '')}</p></article>
-          <div class="fixes">${(google.fixes || []).map((fix) => `<article class="fix"><i class="prio ${esc(fix.priority)}">${esc(fix.priority)} · ${esc(fix.when || '')}</i><h3>${esc(fix.title)}</h3><p>${esc(fix.detail)}</p></article>`).join('')}</div>
-          <article class="card" style="margin-top:14px">
-            <h3>${esc(google.reviewPlan?.title || '')}</h3>
-            <p class="lead">${esc(google.reviewPlan?.lead || '')}</p>
-            <div class="table-wrap"><table><thead><tr><th>What</th><th>How</th></tr></thead><tbody>${(google.reviewPlan?.rows || []).map((row) => `<tr><td>${esc(row.tactic)}</td><td>${esc(row.how)}</td></tr>`).join('')}</tbody></table></div>
-            <p class="never">${esc(google.reviewPlan?.never || '')}</p>
-            <ul class="points">${(google.reviewPlan?.kpis || []).map((item) => `<li>${esc(item)}</li>`).join('')}</ul>
-          </article>
+
+          <div class="presence-panel" id="ppanel-maps" role="tabpanel" data-ppanel="maps" aria-labelledby="ptab-maps" hidden>
+            <div id="google" class="maps-anchor">
+              <p class="eyebrow">${esc(google.eyebrow || '')}</p>
+              <h3 class="maps-title">${esc(google.title || '')} <em>${esc(google.titleEm || '')}</em></h3>
+              <p class="lead">${esc(google.lead || '')}</p>
+              <div class="bars">
+                ${(google.breakdown || []).map((row) => {
+                  const pct = Math.round((Number(row.score) / Number(row.max || 1)) * 100);
+                  return `<div class="bar-row"><span><strong>${esc(row.label)}</strong><em class="prio">${esc(row.score)}/${esc(row.max)}${row.opportunity ? ' · opportunity' : ''}</em></span><div class="${row.opportunity ? 'track opportunity' : 'track'}" aria-hidden="true">${row.opportunity ? '' : `<b style="width:${pct}%"></b>`}</div><p class="fine">${esc(row.why || '')}</p></div>`;
+                }).join('')}
+              </div>
+              ${google.pairTitle ? `<h3 class="gbp-heading">${esc(google.pairTitle)}</h3>` : ''}
+              ${google.pairNote ? `<p class="fine gbp-intro">${esc(google.pairNote)}</p>` : ''}
+              <div class="gbp-pair">
+                ${['before', 'after'].map((key) => {
+                  const card = google[key] || {};
+                  const mock = card.mock;
+                  if (!mock) {
+                    return `<article class="listing ${key}"><p class="eyebrow">${esc(card.label || '')}</p><h3>${esc(card.name || client.venue || '')}</h3><div class="chips">${(card.chips || []).map((chip) => `<span class="chip">${esc(chip)}</span>`).join('')}</div><dl>${(card.rows || []).map((row) => `<div><dt class="muted">${esc(row.k)}</dt><dd>${esc(row.v)}</dd></div>`).join('')}</dl></article>`;
+                  }
+                  const facts = mock.facts || card.rows || [];
+                  const photos = mock.photos || [];
+                  const cover = mock.cover
+                    ? fig(mock.cover, mock.coverAlt || mock.name || '', 'gbp-cover')
+                    : `<div class="gbp-cover gbp-cover-empty"><p>${esc(mock.coverNote || 'No owner-chosen cover')}</p></div>`;
+                  const actions = (mock.actions || []).map((label) => `<span class="btn light mock-btn">${esc(label)}</span>`).join('');
+                  return `<article class="gbp ${key}" aria-label="${esc(mock.flag || card.label || 'Listing mockup')}">
+                    <div class="gbp-top">
+                      <p class="flag ${key === 'before' ? 'muted-flag' : ''}">${esc(mock.flag || card.label || '')}</p>
+                      <p class="gbp-note">${esc(mock.note || 'Mockup. Not a Google screen.')}</p>
+                    </div>
+                    ${cover}
+                    <div class="gbp-body">
+                      <h3>${esc(mock.name || card.name || client.venue || '')}</h3>
+                      <p class="gbp-rating">${esc(mock.rating || '')}${mock.reviews ? ` <span>· ${esc(mock.reviews)}</span>` : ''}</p>
+                      ${mock.category ? `<p class="gbp-cat">${esc(mock.category)}</p>` : ''}
+                      <div class="chips">${(card.chips || []).map((chip) => `<span class="chip">${esc(chip)}</span>`).join('')}</div>
+                      <dl class="gbp-facts">${facts.map((row) => `<div><dt>${esc(row.k)}</dt><dd>${esc(row.v)}</dd></div>`).join('')}</dl>
+                      ${mock.blurb ? `<p class="gbp-blurb">${esc(mock.blurb)}</p>` : ''}
+                      ${photos.length ? `<div class="gbp-photos">${photos.map((photo) => fig(photo.image, photo.alt)).join('')}</div>` : ''}
+                      ${mock.photoNote ? `<p class="fine">${esc(mock.photoNote)}</p>` : ''}
+                      ${actions ? `<div class="gbp-actions">${actions}</div>` : ''}
+                    </div>
+                  </article>`;
+                }).join('')}
+              </div>
+              <article class="card" style="margin-top:14px"><h3>Description to approve</h3><p>${esc(google.description || '')}</p><p class="fine">${esc(google.descriptionTh || '')}</p></article>
+              ${(google.fixes || []).length ? '<h3 class="fixes-heading">Recommended actions</h3>' : ''}
+              <div class="fixes">${(google.fixes || []).map((fix) => `<article class="fix"><i class="prio ${esc(fix.priority)}">${esc(fix.priority)} · ${esc(fix.when || '')}</i><h3>${esc(fix.title)}</h3><p>${esc(fix.detail)}</p>${fix.why ? `<p class="why-line"><strong>Why it gets you found:</strong> ${esc(fix.why)}</p>` : ''}</article>`).join('')}</div>
+              <article class="card" style="margin-top:14px">
+                <h3>${esc(google.reviewPlan?.title || '')}</h3>
+                <p class="lead">${esc(google.reviewPlan?.lead || '')}</p>
+                <div class="table-wrap"><table><thead><tr><th>What</th><th>How</th></tr></thead><tbody>${(google.reviewPlan?.rows || []).map((row) => `<tr><td>${esc(row.tactic)}</td><td>${esc(row.how)}</td></tr>`).join('')}</tbody></table></div>
+                <p class="never">${esc(google.reviewPlan?.never || '')}</p>
+                <ul class="points">${(google.reviewPlan?.kpis || []).map((item) => `<li>${esc(item)}</li>`).join('')}</ul>
+              </article>
+            </div>
+          </div>
         </div>
       </section>
       <section class="section" id="plan">
@@ -273,6 +335,20 @@
         document.querySelectorAll('[data-spanel]').forEach((panel) => { panel.hidden = panel.dataset.spanel !== button.dataset.stab; });
       });
     });
+    const showPresence = (id) => {
+      document.querySelectorAll('[data-ptab]').forEach((tab) => tab.setAttribute('aria-selected', String(tab.dataset.ptab === id)));
+      document.querySelectorAll('[data-ppanel]').forEach((panel) => { panel.hidden = panel.dataset.ppanel !== id; });
+    };
+    document.querySelectorAll('[data-ptab]').forEach((button) => {
+      button.addEventListener('click', () => showPresence(button.dataset.ptab));
+    });
+    document.querySelectorAll('.section-nav a[href="#google"]').forEach((a) => {
+      a.addEventListener('click', () => showPresence('maps'));
+    });
+    document.querySelectorAll('.section-nav a[href="#facebook"]').forEach((a) => {
+      a.addEventListener('click', () => showPresence('fb'));
+    });
+    if (location.hash === '#google') showPresence('maps');
     const copy = async (text, status) => {
       try {
         await navigator.clipboard.writeText(text);
