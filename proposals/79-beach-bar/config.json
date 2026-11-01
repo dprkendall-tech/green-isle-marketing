@@ -1,0 +1,617 @@
+{
+  "meta": {
+    "template": false,
+    "slug": "79-beach-bar",
+    "prepared": "31 October 2026",
+    "title": "79 Beach Bar & Restaurant · A growth audit for Don",
+    "description": "A complimentary growth audit for Don, owner of 79 Beach Bar & Restaurant on Koh Kwang Beach, Klong Muang, Krabi. Prepared by Dan at Green Isle Marketing."
+  },
+  "agency": {
+    "name": "Green Isle Marketing",
+    "person": "Dan",
+    "email": "dan@greenislemarketing.com",
+    "whatsapp": "",
+    "place": "Krabi",
+    "homeHref": "../../index.html"
+  },
+  "client": {
+    "name": "Don",
+    "role": "Owner",
+    "venue": "79 Beach Bar & Restaurant",
+    "short": "79",
+    "area": "Koh Kwang Beach, Klong Muang",
+    "locality": "Nong Thale, Krabi",
+    "country": "Thailand"
+  },
+  "commercial": {
+    "mode": "complimentary",
+    "badge": "Free audit · a referral is the thank-you"
+  },
+  "nav": [
+    { "id": "intro", "label": "Intro" },
+    { "id": "snapshot", "label": "Snapshot" },
+    { "id": "website", "label": "Website" },
+    { "id": "facebook", "label": "Facebook" },
+    { "id": "google", "label": "Google" },
+    { "id": "plan", "label": "Plan" },
+    { "id": "close", "label": "Close" }
+  ],
+  "video": {
+    "src": "assets/don-intro.mp4",
+    "poster": "assets/don-intro-poster.jpg",
+    "eyebrow": "Green Isle · Krabi",
+    "kicker": "For Don · 79 Beach Bar & Restaurant",
+    "title": "Hi Don.",
+    "titleEm": "Let’s make 79 easier to find.",
+    "welcome": "Hi Don — Dan here, from Green Isle Marketing in Krabi. This audit is free. Press play and I’ll walk you through it.",
+    "durationLabel": "About 90 seconds"
+  },
+  "ribbon": [
+    "Koh Kwang Beach",
+    "Klong Muang",
+    "Sunset tables",
+    "Thai food",
+    "Live nights",
+    "About 15 min from Ao Nang"
+  ],
+  "snapshot": {
+    "eyebrow": "The picture today",
+    "title": "A loved beach bar.",
+    "titleEm": "A quiet online presence.",
+    "lead": "Public listings checked on 31 October 2026. Nothing on Google, Tripadvisor or Facebook has been changed. Counts move, and a manager login would confirm anything the public page hides.",
+    "score": 58,
+    "scoreMax": 100,
+    "scoreLabel": "Google Maps audit",
+    "scoreNote": "Strong product. Weak packaging. 58 is an audit score, not a Google ranking.",
+    "stats": [
+      { "label": "Google", "value": "4.7★", "detail": "595 reviews" },
+      { "label": "Tripadvisor", "value": "4.5", "detail": "54 reviews" },
+      { "label": "Facebook", "value": "~248", "detail": "followers" },
+      { "label": "Owned website", "value": "None", "detail": "No booking page" }
+    ],
+    "issuesTitle": "What is getting in the way",
+    "issues": [
+      {
+        "title": "Two different phone numbers",
+        "detail": "Google shows +66 65 961 6141. Tripadvisor shows +66 63 254 5337. Guests cannot tell which one reaches the floor."
+      },
+      {
+        "title": "No owned website or booking page",
+        "detail": "There is no restaurant website. A table request has nowhere clear to land, and Google is effectively offering an empty website field."
+      },
+      {
+        "title": "A thin Facebook page",
+        "detail": "About 248 followers. The bio reads “Come and join us for at our beach front bar…” and the location label says Ban Ao Nang. 79 is on Koh Kwang Beach in Klong Muang, not Ao Nang centre."
+      },
+      {
+        "title": "Thin name, address and phone details",
+        "detail": "Google’s public address is essentially “83, 81000”. Guests search Koh Kwang, Klong Muang and Nong Thale. The same facts should match on every listing."
+      },
+      {
+        "title": "Tripadvisor is underweight",
+        "detail": "4.5 from 54 reviews, beside 595 on Google. Happy tables are not being asked, equally, to leave a Tripadvisor review."
+      }
+    ],
+    "aside": "This is not Bar 79 & Grill on Pruksa Uthit Road in Krabi Town. Different business, different listing. The page name should always sit next to Koh Kwang Beach, Klong Muang.",
+    "sources": [
+      { "label": "Google Maps", "href": "https://maps.google.com/maps/place/79+beach+bar+%26+restaurant/data=!4m2!3m1!1s0x3051bf9b8cd88c3d:0xa407fd573aaa09ce" },
+      { "label": "Tripadvisor", "href": "https://www.tripadvisor.com/Restaurant_Review-g3175953-d27013929-Reviews-79_Beach_Bar_and_Restaurant-Nong_Thale_Krabi_Town_Krabi_Province.html" },
+      { "label": "Facebook", "href": "https://www.facebook.com/79Beachbarandrestaurant/" }
+    ]
+  },
+  "website": {
+    "eyebrow": "The website",
+    "title": "A real page,",
+    "titleEm": "ready for a yes.",
+    "lead": "This is a working concept, not a picture of one. Scroll inside the frame, or open it on its own. It asks for a table, it does not pretend a table is free.",
+    "previewHref": "site/",
+    "previewTitle": "Proposed 79 Beach Bar website",
+    "urlLabel": "Proposed site · Koh Kwang Beach",
+    "points": [
+      "Hero, menu, nights, reviews, map and a request form",
+      "English and Thai, ready to switch",
+      "WhatsApp when you confirm one number — email until then"
+    ],
+    "note": "Venue photos are from public listings, for this proposal. Clear the rights, or swap in your own pictures, before a public launch."
+  },
+  "facebook": {
+    "eyebrow": "The Facebook page",
+    "title": "Same place.",
+    "titleEm": "A page that looks like it.",
+    "lead": "Proposed only. The live page has not been touched. This is a generic social layout for the redesign — it is not Facebook’s own interface, logo or colours.",
+    "liveHref": "https://www.facebook.com/79Beachbarandrestaurant/",
+    "liveLabel": "See today’s page",
+    "proposedFlag": "Proposed",
+    "cover": "assets/beach-evening.jpg",
+    "coverAlt": "Tree-lit tables on the sand at 79 in the evening",
+    "coverKicker": "79 · Koh Kwang Beach",
+    "coverTitle": "Your table. By the sea.",
+    "coverThai": "โต๊ะของคุณริมทะเล",
+    "profile": "assets/profile.svg",
+    "profileAlt": "Proposed 79 mark",
+    "name": "79 Beach Bar & Restaurant",
+    "handle": "@79Beachbarandrestaurant",
+    "category": "Beach bar · Restaurant · Klong Muang, Krabi",
+    "cta": "Request a table",
+    "ctaHref": "site/#book",
+    "tabs": [
+      { "id": "posts", "label": "Posts" },
+      { "id": "about", "label": "About" },
+      { "id": "reviews", "label": "Reviews" },
+      { "id": "photos", "label": "Photos" }
+    ],
+    "bio": "Sunset tables on Koh Kwang Beach, Klong Muang. Thai food, seafood, cocktails, live DJ and fire shows. Families and travellers welcome — about 15 minutes from Ao Nang.",
+    "bioTh": "โต๊ะริมทะเลหาดเกาะควาง คลองม่วง อาหารไทย ซีฟู้ด ค็อกเทล ดีเจและโชว์ไฟ ต้อนรับครอบครัวและนักท่องเที่ยว ห่างอ่าวนางประมาณ 15 นาที",
+    "aboutRows": [
+      { "k": "Category", "v": "Beach bar and restaurant" },
+      { "k": "Address", "v": "Koh Kwang Beach, Klong Muang, Nong Thale, Krabi 81180 — confirm the exact approach with Don" },
+      { "k": "Phone", "v": "One number only, once Google and Tripadvisor are aligned" },
+      { "k": "Hours", "v": "Listed publicly as 10:00–00:00. Confirm before publishing." },
+      { "k": "Website", "v": "The landing page, once you approve it" },
+      { "k": "Price", "v": "฿฿ — confirm" },
+      { "k": "Good to know", "v": "Dine-in, sand-side tables, live nights. Tripadvisor lists cash and parking — confirm both." }
+    ],
+    "highlights": [
+      { "label": "Menu", "image": "assets/venue-7.jpg", "alt": "Seafood plate at 79" },
+      { "label": "Sunset", "image": "assets/sunset-1.webp", "alt": "79 after dark" },
+      { "label": "Nights", "image": "assets/beach-evening.jpg", "alt": "Evening tables under the tree" },
+      { "label": "Find us", "image": "assets/coast-3.jpg", "alt": "The restaurant under the trees on the sand" },
+      { "label": "Reviews", "image": "assets/coast-1.jpg", "alt": "Lunch with the sea behind it" }
+    ],
+    "posts": [
+      {
+        "pinned": true,
+        "image": "assets/coast-1.jpg",
+        "alt": "A colourful lunch with the sea at 79",
+        "when": "Pinned · proposed welcome",
+        "text": "Hi from 79 on Koh Kwang Beach.\n\nThai food, cold drinks, sunset in the sand, live DJ and fire shows at night.\n\nPlanning dinner or a group? Message us for a table — or use the link for directions and reviews.\n\nAbout 15 minutes from Ao Nang. See you by the sea."
+      },
+      {
+        "image": "assets/sunset-1.webp",
+        "alt": "Lanterns at 79 after dark",
+        "when": "Proposed · Monday",
+        "text": "The light goes gold, then the lamps come on. Message us if you want a table tonight."
+      },
+      {
+        "image": "assets/venue-7.jpg",
+        "alt": "A seafood plate at 79",
+        "when": "Proposed · Tuesday",
+        "text": "Seafood, Pad Thai, Tom Kha, something to share. Ask what the kitchen is cooking today — photos should match the plate."
+      },
+      {
+        "image": "assets/venue-8.jpg",
+        "alt": "Pineapple fried rice at 79",
+        "when": "Proposed · Wednesday",
+        "text": "A slower lunch, feet almost in the sand. Families and travellers, both welcome."
+      },
+      {
+        "image": "assets/coast-3.jpg",
+        "alt": "Bamboo tables under the tree at 79",
+        "when": "Proposed · Sunday",
+        "text": "Koh Kwang Beach, Klong Muang. Quieter than Ao Nang, about 15 minutes away. This is not Bar 79 in Krabi Town."
+      },
+      {
+        "image": "assets/beach-evening.jpg",
+        "alt": "The beachfront lit at night",
+        "when": "Proposed · Friday",
+        "text": "DJ, fire show, happy hour — ask what is actually on tonight. We will not post a time we have not confirmed."
+      },
+      {
+        "image": "assets/venue-9.jpg",
+        "alt": "A coconut served beside the beach",
+        "when": "Proposed · Saturday",
+        "text": "Guests rate us 4.7 on Google, from 595 reviews. If you have been, tell the truth on Google or Tripadvisor — nice or not."
+      }
+    ],
+    "reviewQuote": "Great spot on the beach. Lovely food and good service",
+    "reviewBy": "davenick1 · Tripadvisor · August 2026",
+    "photos": [
+      { "image": "assets/coast-1.jpg", "alt": "Lunch overlooking the beach" },
+      { "image": "assets/coast-2.jpg", "alt": "Beach seating at 79" },
+      { "image": "assets/coast-3.jpg", "alt": "Tables under the trees" },
+      { "image": "assets/venue-7.jpg", "alt": "Seafood" },
+      { "image": "assets/venue-8.jpg", "alt": "Pineapple rice" },
+      { "image": "assets/venue-6.jpg", "alt": "Fried rice" },
+      { "image": "assets/venue-9.jpg", "alt": "Coconut by the sea" },
+      { "image": "assets/beach-evening.jpg", "alt": "Evening on the sand" },
+      { "image": "assets/sunset-1.webp", "alt": "After dark" }
+    ]
+  },
+  "google": {
+    "eyebrow": "Google Business Profile",
+    "title": "58 out of 100.",
+    "titleEm": "The beach is not the problem.",
+    "lead": "A public-profile audit on 31 October 2026. No owner dashboard, so posts, reply rate and some attributes are marked as not verified. No changes have been made to the listing.",
+    "breakdown": [
+      { "label": "Rating quality", "score": 16, "max": 20, "why": "4.7 from 595 Google reviews. The reputation is already the hard part." },
+      { "label": "Name, address, phone", "score": 6, "max": 15, "why": "Phone and address disagree with Tripadvisor. Trust leaks before anyone sits down." },
+      { "label": "Categories", "score": 7, "max": 10, "why": "Restaurant and Bar are there. Beachfront, live music and outdoor seating should be ticked only where Google offers them and they are true." },
+      { "label": "Photos", "score": 8, "max": 15, "why": "Guests already photograph the tree, the sunset and the food. The profile’s own first impression still needs an owner-chosen set." },
+      { "label": "Website and booking", "score": 2, "max": 10, "why": "No owned website. The path from the map to a table is unclear." },
+      { "label": "Posts and Q&A", "score": 4, "max": 10, "why": "Not verified as active on this public check." },
+      { "label": "Review replies", "score": 5, "max": 10, "why": "Reply habit was not visible publicly. Mixed Tripadvisor notes on portions and waits should be answered, calmly, on both sites." },
+      { "label": "Discovery wording", "score": 10, "max": 10, "opportunity": true, "why": "Scored as a 10-point opportunity, not a finished strength. People search Klong Muang, Koh Kwang and sunset in Krabi. The public address line barely says so. Those 10 points are why the total is 58, and why the wording still needs writing." }
+    ],
+    "before": {
+      "label": "Before · what the public sees",
+      "name": "79 Beach Bar & Restaurant",
+      "chips": ["Restaurant", "No website"],
+      "rows": [
+        { "k": "Phone", "v": "+66 65 961 6141 on Google" },
+        { "k": "Also listed", "v": "+66 63 254 5337 on Tripadvisor" },
+        { "k": "Address", "v": "Thin public line: 83, 81000" },
+        { "k": "Website", "v": "None" },
+        { "k": "Hours", "v": "Listed 10:00–00:00 — confirm" },
+        { "k": "Proof", "v": "4.7★ · 595 Google reviews" }
+      ]
+    },
+    "after": {
+      "label": "After · proposed, not published",
+      "name": "79 Beach Bar & Restaurant",
+      "chips": ["Restaurant", "Bar", "Website"],
+      "rows": [
+        { "k": "Phone", "v": "One number, on every listing and on WhatsApp" },
+        { "k": "Address", "v": "Koh Kwang Beach, Klong Muang, Nong Thale, Krabi 81180" },
+        { "k": "Website", "v": "Landing page with a table request" },
+        { "k": "Description", "v": "Beachfront bar and restaurant. Thai food, sunset tables, live nights. About 15 minutes from Ao Nang." },
+        { "k": "Booking", "v": "Request a table. Confirmed only when 79 replies." },
+        { "k": "Photos", "v": "Owner-chosen sunset, food, entrance and evening set" }
+      ]
+    },
+    "description": "Beachfront bar and restaurant on Koh Kwang Beach, Klong Muang. Thai food, seafood, cocktails, sunset tables in the sand, live DJ and fire shows. Families and travellers welcome. About 15 minutes from Ao Nang.",
+    "descriptionTh": "บาร์และร้านอาหารริมหาดเกาะควาง คลองม่วง อาหารไทย ซีฟู้ด ค็อกเทล โต๊ะทรายดูพระอาทิตย์ตก มีดีเจและโชว์ไฟ ต้อนรับครอบครัวและนักท่องเที่ยว ห่างอ่าวนางประมาณ 15 นาที",
+    "fixes": [
+      {
+        "priority": "P0",
+        "when": "This week",
+        "title": "One phone number everywhere",
+        "detail": "Pick the number that actually rings on the floor. Put that same number on Google, Tripadvisor, Facebook, WhatsApp and the website. Retire the other one in public, or say clearly what each line is for."
+      },
+      {
+        "priority": "P0",
+        "when": "This week",
+        "title": "Write the address the way guests search",
+        "detail": "Replace the thin “83, 81000” line with Koh Kwang Beach, Klong Muang, Nong Thale, Krabi 81180. Confirm the exact approach and pin with Don before anyone moves it."
+      },
+      {
+        "priority": "P0",
+        "when": "This week",
+        "title": "Add the website, then a real request link",
+        "detail": "When you approve the page, put it in the website field. Link the booking action to the request form or WhatsApp. Do not promise instant confirmation."
+      },
+      {
+        "priority": "P1",
+        "when": "The next two to four weeks",
+        "title": "Categories, attributes, photos, posts",
+        "detail": "Keep Restaurant and Bar. Tick beachfront, outdoor seating and live music only where they are true and Google offers the field. Upload a tight owner set: sunset, tree at night, four dishes, entrance, families. Post twice a week in high season, in English and Thai, only about things that are actually on."
+      },
+      {
+        "priority": "P1",
+        "when": "The next two to four weeks",
+        "title": "Answer the questions people already ask",
+        "detail": "Do you take bookings? Is there parking? How far from Ao Nang? Are children welcome? Do you take cards? Tripadvisor currently says cash. If that is wrong, correct it. If it is right, say so."
+      },
+      {
+        "priority": "P2",
+        "when": "Ongoing",
+        "title": "Replies, and menu photos that match the plate",
+        "detail": "Thank a 5-star review within a couple of days, and mention the night, not a template. For a 3-star or below, apologise, invite a private message, and do not argue a portion in public. Fix the photo instead. Recent Tripadvisor notes mention waits, spice and dishes that did not match the picture."
+      }
+    ],
+    "reviewPlan": {
+      "title": "Review growth, without the tricks",
+      "lead": "More new reviews from real tables, on Google and Tripadvisor, through high season. A direction, not a promise.",
+      "rows": [
+        { "tactic": "QR on the table and the bill", "how": "Two codes, Google and Tripadvisor, for every table. “Takes about half a minute.”" },
+        { "tactic": "A morning note, only if they shared a number", "how": "Optional WhatsApp or LINE the next day. Same ask, happy or not." },
+        { "tactic": "A soft ask from the floor", "how": "After dessert or a second round, when the table is at ease. Never only the smiling tables." },
+        { "tactic": "Fix the expectation first", "how": "Honest dish photos, a spice check, a word about tide and weather for sand-side seats." },
+        { "tactic": "Reply in public", "how": "Future guests can see a person is there." }
+      ],
+      "never": "Never buy reviews, never hand the QR only to happy tables, and never offer a free drink for a star rating. That breaks Google and Tripadvisor rules, and it is not how 79 got to 4.7.",
+      "kpis": [
+        "New Google reviews each month",
+        "Share of reviews replied to within 48 hours",
+        "Direction requests and calls, once Don opens the insights",
+        "WhatsApp taps from the profile"
+      ]
+    }
+  },
+  "plan": {
+    "eyebrow": "Ninety days",
+    "title": "Tourists in season.",
+    "titleEm": "Locals the rest of the week.",
+    "lead": "The positioning, in one line: the easy sunset table on Koh Kwang Beach. Thai food, a real welcome, DJ and fire-show nights, about 15 minutes from Ao Nang.",
+    "disclaimer": "Results are not guaranteed. Covers, rankings and revenue depend on the food, the service, how many seats you have, the season, the weather, any ad spend, and how fast the phone number and photos get fixed. This plan does not promise a number-one map pin, a sell-out, or a return on ads.",
+    "audiences": [
+      {
+        "id": "tourists",
+        "eyebrow": "High season",
+        "title": "Visitors, roughly November to April",
+        "items": [
+          { "title": "Hotels and concierges", "body": "A one-page card: pin, hours, a few dishes, and “mention the hotel”. Klong Muang, Tubkaak and nearby resorts, plus Ao Nang desks that send people west. A tasting for staff once. Commission only if you want it — many partners just need their guests looked after." },
+          { "title": "Google", "body": "Fix the phone, address, photos and posts first. Then the website field and the table request. A small geo test around Klong Muang and Ao Nang is optional, on phrases like “Klong Muang restaurant” and “sunset dinner Krabi”. Pause it if the cost per enquiry is weak." },
+          { "title": "Meta, geo-targeted", "body": "Real sunset, a fire-show clip, a Thai plate, a family table. Radius around Ao Nang, Klong Muang and Railay overnights. Late-afternoon ads, when people are choosing dinner. Land on the request form or WhatsApp." },
+          { "title": "Tripadvisor", "body": "The listing is claimed. Reply to every review. Grow from 54 with the same honest QR you use for Google. Sponsored placement only after the photos and replies are in good shape." }
+        ]
+      },
+      {
+        "id": "locals",
+        "eyebrow": "All year",
+        "title": "Locals and long-stay guests",
+        "items": [
+          { "title": "Weekly nights, agreed with you", "body": "Ideas, not a published calendar: a midweek locals set, an earlier family Sunday, one night worth posting. We put them on the page only after you pick the evening and the offer." },
+          { "title": "LINE and the community", "body": "A LINE Official Account, or a simple broadcast list to start: today’s menu, tonight’s show time, a last-minute table. Useful posts in local groups, not spam." },
+          { "title": "The people already nearby", "body": "Klong Muang residents and long-stay rentals do not need a tourist funnel. They need a reason to come on a Tuesday and a message that reaches them." }
+        ]
+      }
+    ],
+    "timeline": [
+      { "phase": "Days 1–30", "name": "Foundation", "points": ["Lock one phone, WhatsApp and LINE.", "Clean Google and Tripadvisor details, photos and the short description in English and Thai.", "Approve the landing page.", "Refresh Facebook: bio, cover, pin, two-week calendar.", "Table QR for Google and Tripadvisor.", "List ten hotel and concierge targets. Speak to the first five."] },
+      { "phase": "Days 31–60", "name": "Demand", "points": ["A small Meta geo test, two creatives.", "An optional Google Ads test.", "Launch one weekly locals night.", "A concierge tasting or a flyer drop.", "Reply to reviews and post on Google every week."] },
+      { "phase": "Days 61–90", "name": "Refine", "points": ["Keep what brings tables. Stop what does not.", "Push group and event requests around the travel peaks you actually want.", "Sit down on the numbers and decide whether you want a paid retainer or to run it yourselves.", "If you are happy, introductions to two or three other owners."] }
+    ],
+    "kpis": [
+      { "name": "Table requests", "where": "WhatsApp, email form, Facebook inbox" },
+      { "name": "Google rating and new reviews", "where": "Business Profile" },
+      { "name": "Tripadvisor review count", "where": "Tripadvisor" },
+      { "name": "Messages and reach", "where": "Meta insights" },
+      { "name": "Partner hotels actually sending guests", "where": "A simple list, plus a mention at the table" },
+      { "name": "Locals-night covers", "where": "A count on the floor" }
+    ],
+    "budget": "Ads are optional and yours to approve. A sensible first test is about 3,000–8,000 baht a month, not a quote. Domain, LINE and a half-day of photos are small and separate. Nothing here has been switched on."
+  },
+  "pricing": {
+    "enabled": false,
+    "navLabel": "Investment",
+    "eyebrow": "Investment",
+    "title": "A clear fee.",
+    "titleEm": "Nothing hidden.",
+    "intro": "For paid proposals. This 79 audit does not use this section.",
+    "items": [],
+    "excludes": "",
+    "disclaimer": ""
+  },
+  "close": {
+    "eyebrow": "No price on this page",
+    "title": "This audit is free.",
+    "titleEm": "If it helps, pass my name on.",
+    "paragraphs": [
+      "Don, there is no fee for this audit, the page concept, the Facebook redesign or the 90-day plan. I am not asking you to buy a retainer on the back of a sunset.",
+      "You already did the hard part. The beach, the food and 595 Google reviews are yours. I would like to help more of the right people find the place.",
+      "If you are happy with the work, I would be grateful for a recommendation, or an introduction to another bar or restaurant owner. There is no obligation, and no awkward script. A forward is enough."
+    ],
+    "ask": "Two or three introductions, when it feels right. Hotels, tours and other kitchens all count.",
+    "forwardable": "I’ve been looking at how people find 79 Beach Bar with Dan at Green Isle Marketing in Krabi. If you own a bar or restaurant and want a straight look at your Google, Facebook and website, he’s worth a conversation: dan@greenislemarketing.com",
+    "emailSubject": "79 Beach Bar — from Don",
+    "whatsappText": "Hi Dan, it's Don from 79 Beach Bar. I had a look at the audit."
+  },
+  "site": {
+    "showAgencyCredit": true,
+    "identity": {
+      "name": "79 Beach Bar & Restaurant",
+      "mark": "79",
+      "tag": { "en": "Beach bar & restaurant · Krabi", "th": "บาร์และร้านอาหาร · กระบี่" }
+    },
+    "meta": {
+      "title": {
+        "en": "79 Beach Bar & Restaurant | Koh Kwang Beach, Klong Muang, Krabi",
+        "th": "79 Beach Bar & Restaurant | หาดเกาะควาง คลองม่วง กระบี่"
+      },
+      "description": {
+        "en": "Beachfront Thai food, cocktails and sunset tables on Koh Kwang Beach, Klong Muang. Request a table, read Google and Tripadvisor reviews, about 15 minutes from Ao Nang.",
+        "th": "อาหารไทย ค็อกเทล และโต๊ะดูพระอาทิตย์ตก ริมหาดเกาะควาง คลองม่วง ส่งคำขอจองโต๊ะ อ่านรีวิวบน Google และ Tripadvisor ห่างอ่าวนางประมาณ 15 นาที"
+      }
+    },
+    "contact": {
+      "email": "theerakan30398@hotmail.com",
+      "whatsapp": "",
+      "facebook": "https://www.facebook.com/79Beachbarandrestaurant/",
+      "lineUrl": "",
+      "googleMaps": "https://maps.google.com/maps/place/79+beach+bar+%26+restaurant/data=!4m2!3m1!1s0x3051bf9b8cd88c3d:0xa407fd573aaa09ce",
+      "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g3175953-d27013929-Reviews-79_Beach_Bar_and_Restaurant-Nong_Thale_Krabi_Town_Krabi_Province.html",
+      "mapEmbed": "https://maps.google.com/maps?q=8.0578174,98.7485665&z=16&hl=en&output=embed",
+      "lat": 8.0578174,
+      "lng": 98.7485665
+    },
+    "schema": {
+      "types": ["BarOrPub", "Restaurant"],
+      "servesCuisine": ["Thai", "Seafood"],
+      "priceRange": "฿฿",
+      "streetAddress": "Koh Kwang Beach, Klong Muang",
+      "addressLocality": "Nong Thale",
+      "addressRegion": "Krabi",
+      "postalCode": "81180",
+      "addressCountry": "TH",
+      "openingHours": ["Mo-Su 10:00-00:00"],
+      "ratingValue": "4.7",
+      "reviewCount": "595"
+    },
+    "hero": {
+      "image": "assets/sunset-1.webp",
+      "imageAlt": {
+        "en": "Lanterns lighting the beachfront tables at 79 after dark",
+        "th": "โคมไฟบนโต๊ะริมหาดที่ 79 ยามค่ำ"
+      },
+      "eyebrow": { "en": "Koh Kwang Beach · Klong Muang · Krabi", "th": "หาดเกาะควาง · คลองม่วง · กระบี่" },
+      "title": { "en": "Barefoot days.", "th": "วันสบาย ๆ ริมทะเล" },
+      "titleEm": { "en": "Beautiful evenings.", "th": "คืนที่สวยงาม" },
+      "lead": {
+        "en": "Thai flavours, tables in the sand, sunset on the Andaman. A warm welcome at 79 — whether you are visiting Krabi or you already call it home.",
+        "th": "อาหารไทย โต๊ะบนทราย พระอาทิตย์ตกที่อันดามัน ยินดีต้อนรับที่ 79 ไม่ว่าคุณจะมาเที่ยวกระบี่หรืออยู่ที่นี่แล้ว"
+      },
+      "primary": { "en": "Your table by the sea", "th": "โต๊ะของคุณริมทะเล" },
+      "secondary": { "en": "Message us", "th": "ส่งข้อความ" },
+      "sub": {
+        "en": "อาหารไทยริมทะเล · พระอาทิตย์ตก · ดีเจและโชว์ไฟ",
+        "th": "Thai food on the sand · sunset · DJ and fire shows"
+      },
+      "trust": [
+        { "k": "Google", "v": "4.7" },
+        { "k": "Tripadvisor", "v": "4.5" },
+        { "k": { "en": "From Ao Nang", "th": "จากอ่าวนาง" }, "v": { "en": "~15 min", "th": "~15 นาที" } }
+      ]
+    },
+    "experience": {
+      "image": "assets/beach-evening.jpg",
+      "imageAlt": { "en": "Evening tables under the tree at 79", "th": "โต๊ะยามเย็นใต้ต้นไม้ที่ 79" },
+      "inset": "assets/coast-2.jpg",
+      "insetAlt": { "en": "Beach seating at 79", "th": "ที่นั่งริมหาดที่ 79" },
+      "eyebrow": { "en": "This is 79", "th": "นี่คือ 79" },
+      "title": { "en": "Nothing fancy.", "th": "ไม่ต้องหรู" },
+      "titleEm": { "en": "Everything you came for.", "th": "มีทุกอย่างที่คุณตามมา" },
+      "body": {
+        "en": "A table in the sand. The sea beside you. Something delicious to share. Find us on Koh Kwang Beach in Klong Muang — long lunches, dinner by the water, and live nights when the team has one on.",
+        "th": "โต๊ะบนทราย ทะเลอยู่ข้าง ๆ มีของอร่อยให้แบ่งกัน เราอยู่หาดเกาะควาง คลองม่วง ทั้งมื้อกลางวันที่ยาว มื้อเย็นริมน้ำ และคืนที่มีดนตรีเมื่อทีมจัดไว้"
+      },
+      "cards": [
+        { "n": "01", "title": { "en": "Right on the beach", "th": "ติดหาดจริง ๆ" }, "body": { "en": "Bring an appetite. Leave the rush.", "th": "เอาความหิวมา วางความรีบไว้" } },
+        { "n": "02", "title": { "en": "Sunset into night", "th": "จากพระอาทิตย์ตกสู่กลางคืน" }, "body": { "en": "DJ and fire-show nights. Ask what is on today.", "th": "คืนดีเจและโชว์ไฟ ถามรอบของวันนี้ได้" } },
+        { "n": "03", "title": { "en": "Families and travellers", "th": "ครอบครัวและนักเดินทาง" }, "body": { "en": "Holiday tables and people who live nearby.", "th": "ทั้งคนมาเที่ยวและคนที่อยู่แถวนี้" } }
+      ]
+    },
+    "menu": {
+      "eyebrow": { "en": "Good food. A better setting.", "th": "ของดี ในที่ที่ใช่" },
+      "title": { "en": "A taste of", "th": "รสของ" },
+      "titleEm": { "en": "beach life.", "th": "ชีวิตติดหาด" },
+      "lead": {
+        "en": "Thai favourites, seafood, something from the grill, a cold drink. Ask the team for today’s menu and prices. Photos are examples — they should match what arrives.",
+        "th": "อาหารไทยจานโปรด ซีฟู้ด ของย่าง และเครื่องดื่มเย็น ถามเมนูและราคาของวันนี้ได้ รูปเป็นตัวอย่าง ควรตรงกับจานที่เสิร์ฟ"
+      },
+      "items": [
+        { "image": "assets/venue-7.jpg", "alt": { "en": "Seafood served at 79", "th": "ซีฟู้ดที่ 79" }, "kicker": "01", "title": { "en": "Something from the sea", "th": "ของจากทะเล" }, "body": { "en": "Fish, squid, shrimp cakes. Share them.", "th": "ปลา ปลาหมึก เค้กกุ้ง แบ่งกันกิน" } },
+        { "image": "assets/venue-8.jpg", "alt": { "en": "Pineapple fried rice at 79", "th": "ข้าวผัดสับปะรดที่ 79" }, "kicker": "02", "title": { "en": "Thai classics", "th": "จานไทยคุ้นปาก" }, "body": { "en": "Pad Thai, Tom Kha, curry, pineapple rice.", "th": "ผัดไทย ต้มข่า แกง ข้าวผัดสับปะรด" } },
+        { "image": "assets/venue-6.jpg", "alt": { "en": "A rice dish at 79", "th": "จานข้าวที่ 79" }, "kicker": "03", "title": { "en": "From the board", "th": "จากป้ายหน้าร้าน" }, "body": { "en": "Spring rolls, calamari, and whatever the board is pushing today.", "th": "ปอเปี๊ยะ ปลาหมึกชุบแป้ง และเมนูที่ป้ายวันนี้แนะนำ" } },
+        { "image": "assets/venue-9.jpg", "alt": { "en": "A coconut by the beach at 79", "th": "มะพร้าวริมหาดที่ 79" }, "kicker": "04", "title": { "en": "Cocktails and cold drinks", "th": "ค็อกเทลและเครื่องดื่มเย็น" }, "body": { "en": "Happy hour is often chalked up. Message for today’s times.", "th": "แฮปปี้ชั่วโมงมักเขียนบนกระดาน สอบถามเวลาวันนี้ได้" } }
+      ],
+      "note": {
+        "en": "Curious about spice, a children’s plate, or a vegan option? Tripadvisor mentions vegan choices. Ask before you order so the plate matches the picture.",
+        "th": "อยากรู้เรื่องความเผ็ด เมนูเด็ก หรือมังสวิรัติ Tripadvisor ระบุว่ามีตัวเลือกวีแกน ถามก่อนสั่ง จะได้ตรงกับรูป"
+      },
+      "cta": { "en": "Ask about the menu", "th": "ถามเมนู" }
+    },
+    "events": {
+      "eyebrow": { "en": "Stay a little longer", "th": "อยู่ต่ออีกนิด" },
+      "title": { "en": "Nights worth", "th": "คืนที่" },
+      "titleEm": { "en": "staying for.", "th": "ควรอยู่ต่อ" },
+      "lead": {
+        "en": "Sunset is the reliable booking. Live music, a DJ and fire shows happen — ask which night, because this page will not invent a timetable.",
+        "th": "พระอาทิตย์ตกคือรอบที่แน่นอน ดนตรีสด ดีเจ และโชว์ไฟมีจริง ถามว่าคืนไหน เพราะหน้านี้จะไม่มโนตารางเวลา"
+      },
+      "items": [
+        { "title": { "en": "Sunset tables", "th": "โต๊ะดูพระอาทิตย์ตก" }, "body": { "en": "Sand-side seats depend on the tide, the weather and who is already here.", "th": "ที่นั่งริมทรายขึ้นกับน้ำทะเล อากาศ และโต๊ะที่ไม่ว่าง" } },
+        { "title": { "en": "Live nights", "th": "คืนมีโชว์" }, "body": { "en": "DJ, music and fire shows. Message for tonight’s time before you promise the table.", "th": "ดีเจ ดนตรี และโชว์ไฟ ทักถามเวลาคืนนี้ก่อนนัดเพื่อน" } },
+        { "title": { "en": "Small celebrations", "th": "งานเล็ก ๆ" }, "body": { "en": "Birthdays and long tables. Tell us the shape of the evening in the form. We confirm personally.", "th": "วันเกิดและโต๊ะยาว บอกรายละเอียดในแบบฟอร์ม เรายืนยันเอง" } }
+      ],
+      "localsNote": {
+        "en": "A weekly locals night is a plan with Don, not a night on the board yet.",
+        "th": "คืนคนท้องถิ่นรายสัปดาห์เป็นแผนกับคุณดอน ยังไม่ขึ้นป้าย"
+      }
+    },
+    "reviews": {
+      "eyebrow": { "en": "From people who have been", "th": "จากคนที่มาแล้ว" },
+      "title": { "en": "Read the reviews.", "th": "อ่านรีวิว" },
+      "titleEm": { "en": "Or leave an honest one.", "th": "หรือเขียนตามจริง" },
+      "quote": "Great spot on the beach. Lovely food and good service",
+      "quoteBy": "davenick1 · Tripadvisor · August 2026",
+      "body": {
+        "en": "Google 4.7 from 595 reviews. Tripadvisor 4.5 from 54. If you have eaten with us, say what the night was actually like. Nice, mixed, or not. There is no filter and no reward.",
+        "th": "Google 4.7 จาก 595 รีวิว Tripadvisor 4.5 จาก 54 รีวิว ถ้ามาทานแล้ว เล่าคืนนั้นตามจริง จะดี จะกลาง ๆ หรือไม่ดี ก็ได้ ไม่มีตัวกรองและไม่มีของตอบแทน"
+      },
+      "google": { "en": "Google reviews", "th": "รีวิว Google" },
+      "tripadvisor": { "en": "Tripadvisor reviews", "th": "รีวิว Tripadvisor" },
+      "hint": {
+        "en": "Open the listing and choose Write a review. It is submitted on that site, not here.",
+        "th": "เปิดหน้าร้านแล้วเลือกเขียนรีวิว ส่งบนเว็บนั้น ไม่ใช่บนหน้านี้"
+      }
+    },
+    "booking": {
+      "eyebrow": { "en": "Make an evening of it", "th": "ทำให้คืนนี้พิเศษ" },
+      "title": { "en": "Your table.", "th": "โต๊ะของคุณ" },
+      "titleEm": { "en": "Your kind of escape.", "th": "ในแบบที่คุณต้องการ" },
+      "lead": {
+        "en": "Send a request. The restaurant replies in person. A time on this form is a wish, not a booking. Beachfront seats depend on the tide, the weather and what is left.",
+        "th": "ส่งคำขอ ร้านตอบเอง เวลาในแบบฟอร์มคือความต้องการ ไม่ใช่การจอง ที่นั่งริมหาดขึ้นกับน้ำทะเล อากาศ และโต๊ะที่เหลือ"
+      },
+      "formTitle": { "en": "Request a table or an event", "th": "ขอโต๊ะหรือจัดงาน" },
+      "submit": { "en": "Prepare my request", "th": "จัดข้อความคำขอ" },
+      "privacy": {
+        "en": "Nothing is stored or sent by this page. You send the email yourself. Please skip passport numbers and other sensitive details. There is no live availability.",
+        "th": "หน้านี้ไม่เก็บและไม่ส่งข้อมูลให้ คุณส่งอีเมลเอง ไม่ต้องใส่เลขหนังสือเดินทางหรือข้อมูลอ่อนไหว ไม่มีการเช็กที่ว่างแบบเรียลไทม์"
+      },
+      "emailNote": {
+        "en": "Email goes to the address published on Tripadvisor. WhatsApp opens once 79 confirms a single public number.",
+        "th": "อีเมลไปที่อยู่ซึ่งเผยแพร่บน Tripadvisor WhatsApp จะเปิดเมื่อ 79 ยืนยันเบอร์สาธารณะเบอร์เดียว"
+      },
+      "dialogTitle": { "en": "Ready to send. Not sent yet.", "th": "พร้อมส่ง ยังไม่ได้ส่ง" },
+      "dialogBody": {
+        "en": "Check the note, then email it. The table is booked only when 79 confirms.",
+        "th": "ตรวจข้อความแล้วส่งอีเมล โต๊ะจะถูกจองเมื่อ 79 ยืนยันเท่านั้น"
+      },
+      "emailButton": { "en": "Email this request", "th": "ส่งคำขอทางอีเมล" },
+      "copyButton": { "en": "Copy request", "th": "คัดลอกคำขอ" },
+      "whatsappButton": { "en": "Open WhatsApp", "th": "เปิด WhatsApp" },
+      "copied": { "en": "Copied. Paste it into your own message.", "th": "คัดลอกแล้ว วางในข้อความของคุณ" },
+      "copyFail": { "en": "Select the note above and copy it.", "th": "เลือกข้อความด้านบนแล้วคัดลอก" },
+      "fields": {
+        "name": { "en": "Your name", "th": "ชื่อ" },
+        "contact": { "en": "Email, phone or LINE ID", "th": "อีเมล โทรศัพท์ หรือ LINE" },
+        "date": { "en": "Date", "th": "วันที่" },
+        "time": { "en": "Preferred time", "th": "เวลาที่ต้องการ" },
+        "guests": { "en": "Guests", "th": "จำนวนแขก" },
+        "seating": { "en": "Seating", "th": "ที่นั่ง" },
+        "type": { "en": "Occasion", "th": "โอกาส" },
+        "notes": { "en": "Anything else?", "th": "อย่างอื่นอีกไหม" },
+        "notesHint": { "en": "Optional. Allergies, a birthday, access needs.", "th": "ไม่บังคับ แพ้อาหาร วันเกิด หรือการเข้าถึง" }
+      },
+      "seatingOptions": [
+        { "en": "No preference", "th": "ได้ทุกที่" },
+        { "en": "Beachfront, if it is free", "th": "ริมหาด ถ้ายังว่าง" },
+        { "en": "Under cover, if it is free", "th": "ในร่ม ถ้ายังว่าง" }
+      ],
+      "typeOptions": [
+        { "en": "Dinner", "th": "มื้อเย็น" },
+        { "en": "Lunch", "th": "มื้อกลางวัน" },
+        { "en": "Drinks", "th": "เครื่องดื่ม" },
+        { "en": "Event or group", "th": "งานหรือกลุ่ม" }
+      ],
+      "guestLabel": { "en": "guests", "th": "ท่าน" },
+      "guestOne": { "en": "1 guest", "th": "1 ท่าน" },
+      "guestMany": { "en": "12+ guests — tell us more below", "th": "12 ท่านขึ้นไป — บอกรายละเอียดด้านล่าง" },
+      "chooseTime": { "en": "Choose a time", "th": "เลือกเวลา" },
+      "dateError": { "en": "Choose today or a later date in Thailand.", "th": "เลือกวันนี้หรือวันถัดไปตามเวลาไทย" },
+      "timeError": { "en": "Choose a later time in Thailand.", "th": "เลือกเวลาที่ยังมาไม่ถึงตามเวลาไทย" }
+    },
+    "visit": {
+      "eyebrow": { "en": "See you by the sea", "th": "แล้วเจอกันริมทะเล" },
+      "title": { "en": "Find your way", "th": "มาหาเรา" },
+      "titleEm": { "en": "to 79.", "th": "ที่ 79" },
+      "address": {
+        "en": "Koh Kwang Beach, Klong Muang\nNong Thale, Krabi 81180, Thailand",
+        "th": "หาดเกาะควาง คลองม่วง\nหนองทะเล กระบี่ 81180"
+      },
+      "note": {
+        "en": "About 15 minutes from Ao Nang, on a quieter beach. Hours are listed publicly as 10:00–00:00 — message us to confirm today. Phone numbers on Google and Tripadvisor still disagree, so this page will not guess which one to call.",
+        "th": "ห่างอ่าวนางประมาณ 15 นาที หาดเงียบกว่า เวลาที่ประกาศไว้คือ 10:00–00:00 ทักยืนยันวันนี้ได้ เบอร์บน Google กับ Tripadvisor ยังไม่ตรงกัน หน้านี้จะไม่เดาว่าควรโทรเบอร์ไหน"
+      },
+      "maps": { "en": "Open Google Maps", "th": "เปิด Google Maps" },
+      "facebook": { "en": "Facebook", "th": "เฟซบุ๊ก" },
+      "mapTitle": {
+        "en": "Map of 79 Beach Bar on Koh Kwang Beach, Klong Muang",
+        "th": "แผนที่ 79 Beach Bar หาดเกาะควาง คลองม่วง"
+      }
+    },
+    "footer": {
+      "line": { "en": "A little sand. A lot of soul.", "th": "ทรายนิดหน่อย หัวใจเต็มที่" },
+      "credit": { "en": "Website concept by Green Isle Marketing. Remove this line when the page launches for guests.", "th": "แนวเว็บไซต์โดย Green Isle Marketing ตัดบรรทัดนี้เมื่อเปิดใช้จริง" },
+      "hours": { "en": "Listed hours 10:00–00:00 · confirm on the day", "th": "เวลาที่ประกาศ 10:00–00:00 · ยืนยันในวันนั้น" }
+    },
+    "dock": { "en": "Request a table", "th": "ขอโต๊ะ" },
+    "nav": [
+      { "href": "#experience", "label": { "en": "The place", "th": "บรรยากาศ" } },
+      { "href": "#menu", "label": { "en": "Menu", "th": "เมนู" } },
+      { "href": "#events", "label": { "en": "Nights", "th": "ยามค่ำ" } },
+      { "href": "#visit", "label": { "en": "Find us", "th": "แผนที่" } }
+    ]
+  }
+}

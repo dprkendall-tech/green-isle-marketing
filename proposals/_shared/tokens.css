@@ -1,0 +1,45 @@
+:root {
+  --ink: #1c1410;
+  --ink-soft: #3f342c;
+  --muted: #5e5148;
+  --cream: #f6efe6;
+  --cream-2: #fbf7f1;
+  --paper: #fffaf4;
+  --sand: #e7d9c8;
+  --line: rgba(28, 20, 16, 0.12);
+  --lagoon: #14312c;
+  --lagoon-2: #0d2420;
+  --coral: #e36a45;
+  --coral-deep: #c2412c;
+  --gold: #e7b56a;
+  --gold-2: #f3d7a4;
+  --night: #140e0c;
+  --serif: "Fraunces", "Iowan Old Style", Palatino, Georgia, serif;
+  --sans: "Outfit", "Avenir Next", "Segoe UI", sans-serif;
+  --shadow: 0 30px 70px rgba(48, 24, 12, 0.16);
+  --radius: 28px;
+  --nav-h: 74px;
+  --ease: cubic-bezier(.2, .7, .2, 1);
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; }
+img { max-width: 100%; display: block; }
+[hidden] { display: none !important; }
+button, input, select, textarea { font: inherit; color: inherit; }
+button { cursor: pointer; }
+a { color: inherit; }
+:focus-visible {
+  outline: 3px solid var(--gold);
+  outline-offset: 3px;
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
